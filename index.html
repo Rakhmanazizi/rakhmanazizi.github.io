@@ -11,6 +11,8 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
 
@@ -36,6 +38,9 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -46,9 +51,9 @@
 
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
-      <img src="img/RAHMAN 1.jpg" alt="Arif Rakhman" width="200" class="rounded-circle img-thumbnail" />
+      <img src="img/projects/RAHMAN 1.jpg" alt="Arif Rakhman" width="200" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Arif Rakhman</h1>
-      <p class="lead">Students | Content Creator</p>
+      <p class="lead"></p>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffff"
@@ -63,15 +68,15 @@
     <section id="about">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
             <h2>About Me</h2>
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur unde iste odit assumenda maiores ratione nam expedita officiis, tempore labore.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, corrupti! Sunt aliquam laborum impedit ab fuga commodi quaerat suscipit mollitia.</p>
           </div>
         </div>
@@ -90,46 +95,46 @@
     <section id="projects">
       <div class="container">
         <div class="row text-center mb-3">
-          <div class="col">
+          <div class="col"  data-aos="fade-down" data-aos-duration="1000">
             <h2>My Projects</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <a href="rout-rip.html"><img src="img/1.jpg" class="card-img-top" alt="Projects 1" /></a>
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+              <a href="rout-rip.html"><img src="img/projects/1.jpg" class="card-img-top" alt="Projects 1" /></a>
               <div class="card-body">
-                <a href="rout-rip.html"><p class="card-text">Percobaan PING jaringan router RIP</p></a>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p></a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/4.jpg" class="card-img-top" alt="Projects 2" />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/5.jpg" class="card-img-top" alt="Projects 4" />
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="100">
+              <img src="img/projects/4.jpg" class="card-img-top" alt="Projects 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/6.jpg" class="card-img-top" alt="Projects 5" />
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="200">
+              <img src="img/projects/5.jpg" class="card-img-top" alt="Projects 4" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/3.jpg" class="card-img-top" alt="Projects 3" />
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="300">
+              <img src="img/projects/6.jpg" class="card-img-top" alt="Projects 5" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="400">
+              <img src="img/projects/3.jpg" class="card-img-top" alt="Projects 3" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
@@ -148,16 +153,89 @@
     </section>
     <!-- Akhir Projects -->
 
+     <!-- gallery -->
+     <section id="gallery">
+       <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="100" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/projects/1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="150" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/projects/4.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="200" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/projects/3.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="250" data-aos-duration="1000"> 
+            <a href="#">
+              <img src="img/projects/6.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="250" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/projects/1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="350" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="400" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="450" data-aos-duration="1000">
+            <a href="#">
+              <img src="img/gallery/thumbnail/1.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+          <div class="col-md-3" data-aos="fade-down" data-aos-delay="500" data-aos-duration="1000"> 
+            <a href="#">
+              <img src="img/gallery/thumbnail/3.jpg" alt="Gambar 1" class="img-fluid gallery-img">
+            </a>
+          </div>
+        </div>
+       </div>
+
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#e2edff"
+          fill-opacity="1"
+          d="M0,224L60,192C120,160,240,96,360,96C480,96,600,160,720,186.7C840,213,960,203,1080,186.7C1200,171,1320,149,1380,138.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+       
+    </section>
+    <!-- akhir gallery -->
+    
     <!-- Contact -->
-    <section id="contact">
+    <section id="contact" style="background-color: #e2edff">
       <div class="container">
-        <div class="row">
-          <div class="col text-center mb-3">
+        <div class="row text-center mb-3">
+          <div class="col" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="300">
             <h2>Contact Me</h2>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6">
+          <div class="col-md-6" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
             <div class="alert alert-warning alert-success fade show d-none my-alert" role="alert">
               <strong>Terima kasih!</strong> Pesan anda sudah kami terima.
               <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -197,14 +275,35 @@
     </section>
     <!-- Akhir Contact-->
 
+
     <!-- Footer -->
-    <footer class="bg-primary text-white text-center p-5">
+    <footer class="footer bg-primary text-white text-center p-5">
       <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/muhammadarif_rakhman/" class="text-white fw-bold">Arif Rakhman</a></p>
     </footer>
     <!-- Akhir Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Students | Content Creator' });
+      gsap.to('.footer', { duration: 2, delay: 1.5, text: 'Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/muhammadarif_rakhman/" class="text-white fw-bold">Arif Rakhman</a>' });
+      gsap.from('.jumbotron img', { duration: 2, rotateY: 360, opacity: 0, ease: 'bounce'});
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+      gsap.from('.display-4', { duration: 1, y: -50, opacity: 0, delay: 0.5, ease: 'back'})
+    </script>
+    <!-- GSAP -->
     <script>
       const scriptURL = 'https://script.google.com/macros/s/AKfycbwJuSbmowH4w-4GzElCzFWrZCKtWjJpVm23CFBUjHFwh_h0nwGY01aLXwHV95RccvcL/exec';
       const form = document.forms['rakhman-contact-form'];
